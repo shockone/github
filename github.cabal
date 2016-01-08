@@ -181,7 +181,7 @@ Library
   if flag(aeson-compat)
     Build-depends: aeson-compat >= 0.3.0.0 && <0.4
   else
-    Build-depends: aeson-extra >= 0.2.0.0 && <0.3
+    Build-depends: aeson-extra >= 0.3.0.0 && <0.4
 
 test-suite github-test
   default-language: Haskell2010
@@ -201,5 +201,5 @@ test-suite github-test
   if flag(aeson-compat)
     build-depends: aeson-compat >= 0.3.0.0 && <0.4
   else
-    build-depends: aeson-extra >= 0.2.0.0 && <0.3
+    build-depends: aeson-extra >= 0.3.0.0 && <0.4
 

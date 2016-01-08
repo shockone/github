@@ -1,0 +1,7 @@
+packages:
+- '.'
+extra-deps: []
+resolver: lts-4.0
+flags:
+  github:
+     aeson-compat: true
